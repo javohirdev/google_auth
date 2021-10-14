@@ -1,0 +1,39 @@
+.app{
+     display: flex;
+     justify-content: center;
+}
+.signInBtn{
+     display: flex;
+     align-items: center;
+     background-color: rgb(46, 51, 58);
+     color: #fff;
+     padding: 20px;
+     font-size: 20px;
+     font-family: sans-serif;
+     border: none;
+     cursor: pointer;
+}
+.googleIcon{
+     width: 30px;
+     padding-right: 10px;
+}
+.signOutBtn{
+     background-color: rgb(46, 51, 58);
+     color: #fff;
+     padding: 10px 25px;
+     font-size: 20px;
+     font-family: sans-serif;
+     border: none;
+     cursor: pointer;
+}
+
+.accountInfo{
+     display: flex;
+}
+.accountInfo > h1{
+     font-family: system-ui;
+}
+.accountInfo > img{
+     border-radius: 50px;
+     margin-left: 20px;
+}
